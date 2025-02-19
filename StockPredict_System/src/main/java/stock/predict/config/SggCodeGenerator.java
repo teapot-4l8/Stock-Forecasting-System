@@ -51,7 +51,7 @@ public class SggCodeGenerator {
         dsc.setUrl("jdbc:mysql://127.0.0.1:3306/stock_predict?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("root");
+        dsc.setPassword("6666");
         mpg.setDataSource(dsc);
 
         // 包配置

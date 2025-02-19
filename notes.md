@@ -1,3 +1,9 @@
+python环境 一个个手动安装 keras-2.0.9 
+
+```bash
+pip install pandas~=1.1.5 -i http://pypi.doubanio.com/simple/ --trusted-host pypi.doubanio.com
+```
+
 # RNN
 
 > CNN是包含卷积计算且具有深度结构的前馈神经网络

@@ -40,3 +40,4 @@ StockPredict_System/target/
 
 StockModel_RNN&LSTM/__pycache__/
 StockModel_RNN&LSTM/.idea/
+StockModel_RNN&LSTM/.venv/

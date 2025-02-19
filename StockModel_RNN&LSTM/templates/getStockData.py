@@ -18,10 +18,10 @@ df = df[-400:]
 
 # 获取数据库连接
 db = pymysql.connect(
-    host='192.168.100.240',
+    host='127.0.0.1',
     port=3306,
-    user='test',
-    password='Hk@datanbiz123',
+    user='root',
+    password='6666',
     db='test_app'
 )
 
@@ -51,10 +51,11 @@ for value in df["ts_code"]:
             cursor.execute(sql)
             # 执行sql语句
             db.commit()
-        except:
+        except Exception as e:
             # 发生错误时回滚
             db.rollback()
             print("出错")
+        break
 
 # 关闭数据库连接
 db.close()

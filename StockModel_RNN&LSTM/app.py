@@ -35,3 +35,10 @@ def hello_world():  # put application's code here
 if __name__ == '__main__':
 
     app.run()
+
+
+# python -m pip install pip==20.0.2 -i https://pypi.tuna.tsinghua.edu.cn/simple
+# pip install pip==20.0.2 -i http://pypi.doubanio.com/simple/ --trusted-host pypi.doubanio.com
+#
+# python.exe -m pip install pip==20.0.2 -i http://pypi.doubanio.com/simple/ --trusted-host pypi.doubanio.com
+# D:\googledownload\tensorflow_gpu-2.6.0-cp38-cp38-win_amd64.whl

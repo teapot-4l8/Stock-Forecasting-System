@@ -116,5 +116,5 @@ if __name__ == '__main__':
     model.fit([train_X], train_Y, epochs=20, batch_size=64, validation_split=0.1)
 
     # 保存结果
-    model.save("model.h5")
+    model.save("model_test.h5")
     np.save("normalize.npy", normalize)
